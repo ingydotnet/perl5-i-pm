@@ -1,4 +1,9 @@
 ---
+version: 0.02
+date:    Tue Jun  7 17:28:47 EST 2011
+changes:
+- Make sure that perl5.pm is a prerequisite
+---
 version: 0.01
 date:    Sun Jun  5 23:29:22 EST 2011
 changes:
