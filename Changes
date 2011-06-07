@@ -1,4 +1,9 @@
 ---
+version: 0.03
+date:    Wed Jun  8 02:00:01 EST 2011
+changes:
+- Make sure perl5i is picked up as a prereq
+---
 version: 0.02
 date:    Tue Jun  7 17:28:47 EST 2011
 changes:
