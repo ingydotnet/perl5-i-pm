@@ -1,4 +1,9 @@
 ---
+version: 0.04
+date:    Fri Jun 10 14:59:52 EST 2011
+changes:
+- Add Time::y2038 as prereq until perl5i does so itself.
+---
 version: 0.03
 date:    Wed Jun  8 02:00:01 EST 2011
 changes:

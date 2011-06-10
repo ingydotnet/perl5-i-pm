@@ -14,10 +14,13 @@ use 5.010_000;
 use strict;
 use warnings;
 use perl5 0.03 ();
-use perl5i 2.6.1 ();
+use perl5i v2.6.1 ();
 use perl5i::latest ();
 
-our $VERSION = '0.03';
+# XXX perl5i doesn't make this a runtime dep, but it seems to be so.
+use Time::y2038 20100403 ();
+
+our $VERSION = '0.04';
 
 sub import {
     @_ = ('perl5i::latest');
