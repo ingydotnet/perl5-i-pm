@@ -1,4 +1,9 @@
 ---
+version: 0.05
+date:    Sun Jun 12 00:42:13 EST 2011
+changes:
+- Add a warning for Schwern.
+---
 version: 0.04
 date:    Fri Jun 10 14:59:52 EST 2011
 changes:

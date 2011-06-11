@@ -9,12 +9,27 @@ DESCRIPTION
 
         use perl5i::latest;
 
+THE END
+                                     \         .  ./
+                                   \      .:";'.:.."   /
+                                       (M^^.^~~:.'").
+                                 -   (/  .    . . \ \)  -
+          O                         ((| :. ~ ^  :. .|))
+         |\\                     -   (\- |  \ /  |  /)  -
+         |  T                         -\  \     /  /-
+        / \[_]..........................\  \   /  /
+
+    "If you're going to hand users a bomb, at least put warning labels on
+    it." -- Michael Schwern perl5i::latest
+
 SEE ALSO
     *   perl5
 
     *   perl5i
 
-    *   perl5-1i
+    *   perl5i::latest
+
+    *   <http://gurno.com/adam/ascii/bomb.shtml>
 
 AUTHOR
     Ingy döt Net <ingy@ingy.net>
