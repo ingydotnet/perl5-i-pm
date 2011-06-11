@@ -22,7 +22,7 @@ use perl5i::latest ();
 # XXX perl5i doesn't make this a runtime dep, but it seems to be so.
 use Time::y2038 20100403 ();
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 sub import {
     @_ = ('perl5i::latest');

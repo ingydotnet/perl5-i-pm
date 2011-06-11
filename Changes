@@ -1,4 +1,9 @@
 ---
+version: 0.06
+date:    Sun Jun 12 03:41:59 EST 2011
+changes:
+- Upgrade Module::Package to make sure perl5.pm gets required
+---
 version: 0.05
 date:    Sun Jun 12 00:42:13 EST 2011
 changes:
