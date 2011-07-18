@@ -8,14 +8,10 @@
 # - perl5::i
 
 package perl5::i2;
-use perl5i::2 v2.6.1 ();
 
-1;
+use base 'perl5';
 
-sub import {
-    @_ = ('perl5i::2');
-    goto &perl5i::2::import;
-}
+use constant imports => ( 'perl5i::2' => 'v2.6.1' );
 
 1;
 

@@ -1,4 +1,3 @@
-use 5.010_000;
 ##
 # name: perl5::i
 # abstract: perl5 plugin for perl5i
@@ -11,6 +10,7 @@ use 5.010_000;
 # - perl5i::latest
 # - http://gurno.com/adam/ascii/bomb.shtml
 
+use v5.10;
 package perl5::i;
 use strict;
 use warnings;
@@ -22,12 +22,11 @@ use perl5i::latest ();
 # XXX perl5i doesn't make this a runtime dep, but it seems to be so.
 use Time::y2038 20100403 ();
 
-our $VERSION = '0.06';
+use base 'perl5';
 
-sub import {
-    @_ = ('perl5i::latest');
-    goto &perl5i::latest::import;
-}
+our $VERSION = '0.07';
+
+use constant imports => ('perl5i::latest');
 
 1;
 
