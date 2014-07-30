@@ -1,4 +1,10 @@
 ---
+version: 0.09
+date:    Wed Jul 30 16:03:11 PDT 2014
+changes:
+- Fix Meta and add Contributing
+- Switch IRC to #pkg
+---
 version: 0.08
 date:    Fri Jun 27 19:24:20 PDT 2014
 changes:

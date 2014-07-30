@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: perl5-i
-version: 0.08
+version: 0.09
 abstract: perl5 plugin for perl5i
 homepage: https://metacpan.org/release/perl5-i
 
@@ -22,8 +22,10 @@ requires:
   Time::y2038: 20100403
 
 devel:
-  git: git@github.org/ingydotnet/perl5-i-pm
-  irc: irc.freenode.net#ingy
-  bug: https://github.com/ingydotnet/perl5-i-pm/issues/
+  git: https://github.com/ingydotnet/perl5-i-pm
+  bug: https://github.com/ingydotnet/perl5-i-pm/issues
+  irc: irc.freenode.net#pkg
 
-=travis: perl
+=travis:
+  type: perl
+  irc: irc.freenode.net#pkg
