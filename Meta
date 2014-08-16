@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: perl5-i
-version: 0.09
+version: 0.10
 abstract: perl5 plugin for perl5i
 homepage: https://metacpan.org/release/perl5-i
 
@@ -20,6 +20,10 @@ requires:
   perl5: 0.10
   perl5i: v2.6.1
   Time::y2038: 20100403
+
+test:
+  generate:
+    000-require-modules.t: true
 
 devel:
   git: https://github.com/ingydotnet/perl5-i-pm
