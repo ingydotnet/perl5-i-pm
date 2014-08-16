@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: perl5-i
-version: 0.10
+version: 0.11
 abstract: perl5 plugin for perl5i
 homepage: https://metacpan.org/release/perl5-i
 
