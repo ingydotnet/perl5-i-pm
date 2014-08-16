@@ -1,6 +1,6 @@
 use strict; use warnings;
 package perl5::i;
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use perl5;
 # use perl5i;

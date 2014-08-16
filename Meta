@@ -1,19 +1,25 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: perl5-i
-version: 0.11
+version: 0.12
 abstract: perl5 plugin for perl5i
 homepage: https://metacpan.org/release/perl5-i
-
+language: perl
 license: perl
-copyright: 2011-2014. Ingy döt Net.
+copyright: 2011-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
+
+devel:
+  git: https://github.com/ingydotnet/perl5-i-pm
+  bug: https://github.com/ingydotnet/perl5-i-pm/issues
+  irc: irc.freenode.net#pkg
 
 requires:
   perl: 5.8.1
@@ -21,15 +27,5 @@ requires:
   perl5i: v2.6.1
   Time::y2038: 20100403
 
-test:
-  generate:
-    000-require-modules.t: true
-
-devel:
-  git: https://github.com/ingydotnet/perl5-i-pm
-  bug: https://github.com/ingydotnet/perl5-i-pm/issues
-  irc: irc.freenode.net#pkg
-
-=travis:
-  type: perl
-  irc: irc.freenode.net#pkg
+=zild:
+  test-000: require
